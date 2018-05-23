@@ -1,0 +1,48 @@
+Kelompok Dini -Ima
+
+1. Systemout.print("Pilihan menu [1-2]            ");
+	diubah menjadi
+   System.out.print("Pilihan menu [1-2] : ");
+
+2. nomer = input.nextInt();
+	tidak perlu diubah tidak apa-apa, hanya perlu ditambahkan ke variabel 	pada integer ketika mendeklarasikan pernyataan
+   int pertama, kedua, kali, tambah, kurang, mod, pangkat, nomer;
+
+3. switch (nomer) {
+	pada switch sebelum ditambahkan variabel nomer akan terjadi error karena 	variabel nomer belum terdeklarasi
+
+4. kedua=inpt.nextInt();
+	kurang huruf u, diubah menjadi
+   kedua=input.nextInt();
+
+5. kedua=input.nextint();
+	huruf I pada nextint harus huruf besar, diubah menjadi
+   kedua=input.nextInt();
+
+6. System.out.print("Masukkan operator ke-2 :  ")
+	kurang simbol ";" pada akhir pernyataan, diubah menjadi
+   System.out.print("Masukkan operator ke-2 :  ");
+
+7. bagi=pertama/kedua;
+	tidak perlu diubah tidak apa-apa, hanya perlu ditambahkan ke variabel 	pada 	integer ketika mendeklarasikan pernyataan
+   int pertama, kedua, kali, tambah, kurang, mod, pangkat, nomer, bagi;
+
+8. bagi=pertama/kedua;
+	variabel kedua harus diinisialisasi pada deklarasi awal di integer
+   int pertama, kedua = 0, kali, tambah, kurang, mod, pangkat, nomer;
+
+9. case ;
+	case tidak bisa kosong tanpa kondisi, diubah menjadi
+   case 5 ;
+
+10. modpertama % kedua;
+	kurang simbol = diubah menjadi
+    mod=pertama % kedua;
+
+11. default 
+	kurang simbol ";" diubah menjadi
+    default ;
+
+12. brak
+	kurang huruf e, diubah menjadi
+    break;
